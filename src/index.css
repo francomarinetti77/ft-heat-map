@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #ecedef;
+  color: #3b2314;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Leaflet container must have an explicit height to render tiles. */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: #dfe2e6;
+  font-family: inherit;
+}
+
+/* Restrained scrollbars for the data-dense panels. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c4c7cc transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #c4c7cc;
+  border-radius: 4px;
+}

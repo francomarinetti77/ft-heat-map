@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "description": "District heating/cooling network footprints, Barcelona. APPROXIMATED polygons per project §6.3 — these are hand-drawn indicative service areas, NOT official GIS boundaries.",
+    "sources": [
+      "Districlima: serves Poblenou / 22@ / Fòrum / Sant Adrià de Besòs; plants at Fòrum, Tànger and Bogatell.",
+      "Ecoenergies: serves Zona Franca and La Marina del Prat Vermell."
+    ]
+  },
+  "networks": [
+    {
+      "id": "net-districlima",
+      "name": "Districlima",
+      "operator": "Districlima S.A.",
+      "color": "#2E8BC0",
+      "footprint": [
+        [41.4105, 2.2275],
+        [41.4135, 2.2015],
+        [41.4005, 2.1905],
+        [41.3905, 2.1985],
+        [41.3885, 2.2155],
+        [41.3985, 2.2305]
+      ]
+    },
+    {
+      "id": "net-ecoenergies",
+      "name": "Ecoenergies",
+      "operator": "Ecoenergies Barcelona Sud",
+      "color": "#6AA84F",
+      "footprint": [
+        [41.3455, 2.1385],
+        [41.3505, 2.1185],
+        [41.3365, 2.1095],
+        [41.3215, 2.1255],
+        [41.3285, 2.1465]
+      ]
+    }
+  ]
+}
